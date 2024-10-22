@@ -1,6 +1,6 @@
 import React from "react";
 import ExportedImage from "next-image-export-optimizer";
-import heroImage from "/public/images/violin.jpg";
+import heroImage from "/violin.jpg";
 
 const Hero = () => {
   return (
@@ -21,9 +21,7 @@ const Hero = () => {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="text-2xl font-bold sm:text-3xl">
-                ШКОЛА ОБУЧЕНИЯ
-              </h2>
+              <h2 className="text-2xl font-bold sm:text-3xl">ШКОЛА ОБУЧЕНИЯ</h2>
               <p>игры на музыкальных инструментах</p>
 
               <p className="mt-4 text-gray-600 text-justify">
