@@ -21,7 +21,7 @@ const Cta = () => {
               className="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
             >
               <div>
-                <form className="w-full mx-auto">
+                <div className="w-full mx-auto">
 
                   <select
                     id="tool"
@@ -33,7 +33,7 @@ const Cta = () => {
                     <option>флейта</option>
                     <option>баян</option>
                   </select>
-                </form>
+                </div>
 
                 <div className="relative">
                   <input

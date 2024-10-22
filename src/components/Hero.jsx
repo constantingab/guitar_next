@@ -1,6 +1,6 @@
 import React from "react";
 import ExportedImage from "next-image-export-optimizer";
-import heroImage from "/violin.jpg";
+import heroImage from "/public/images/violin.jpg";
 
 const Hero = () => {
   return (
@@ -10,8 +10,8 @@ const Hero = () => {
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
               <ExportedImage
-                alt=""
                 src={heroImage}
+                alt="hero image"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
