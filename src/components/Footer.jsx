@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import logo from "/public/images/logo.png";
 import { PiTelegramLogoBold } from "react-icons/pi";
 
@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-tr from-gray-700 to-gray-900">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-teal-600">
-          <Image className="w-20" src={logo} />
+          <ExportedImage className="w-20" src={logo} />
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400">

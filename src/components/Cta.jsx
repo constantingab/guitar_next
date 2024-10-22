@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import micImage from "/public/images/microphone.png";
 
 const Cta = () => {
@@ -7,7 +7,7 @@ const Cta = () => {
     <div className="mx-auto px-4 py-16 my-10 sm:px-6 lg:px-8 rounded-3xl">
       <div className="flex mx-auto max-w-7xl">
         <div className="block w-1/2 py-5">
-          <Image className="w-full" src={micImage} alt="violin" />
+          <ExportedImage className="w-full" src={micImage} alt="violin" />
         </div>
         <div className="bg-gray-300 w-1/2 p-4 rounded-3xl">
           <h1 className="text-center text-2xl font-bold text-yellow-300 sm:text-3xl">

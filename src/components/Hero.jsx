@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import heroImage from "/public/images/violin.jpg";
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
-              <Image
+              <ExportedImage
                 alt=""
                 src={heroImage}
                 className="absolute inset-0 h-full w-full object-cover"

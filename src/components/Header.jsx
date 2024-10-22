@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import logo from "/public/images/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
@@ -17,7 +17,7 @@ const Header = () => {
         <div className="relative flex items-center justify-between">
           <div className="w-24 max-w-full px-4">
             <a href="/" className="block w-full py-5">
-              <Image
+              <ExportedImage
                 className="w-full motion-safe:hover:scale-105"
                 src={logo}
                 alt="logo"
