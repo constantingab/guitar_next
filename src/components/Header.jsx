@@ -74,12 +74,12 @@ const Header = () => {
               </button>
 
               {isOpen && (
-                <nav className="absolute right-4 top-full z-10 w-full max-w-[250px] rounded-lg bg-green-200 px-6 py-5 shadow lg:hidden lg:static lg:w-full lg:max-w-full lg:shadow-none">
-                  <ul className="block lg:flex">
+                <nav className="absolute right-4 top-full z-10 w-full max-w-[250px] rounded-lg bg-gray-700 px-6 py-5 shadow lg:hidden lg:static lg:w-full lg:max-w-full lg:shadow-none">
+                  <ul className="block  lg:flex">
                     <li>
                       <a
                         href="/"
-                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-700 hover:text-gray-900"
+                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-200 hover:text-gray-50"
                       >
                         Услуги
                       </a>
@@ -87,7 +87,7 @@ const Header = () => {
                     <li>
                       <a
                         href="/"
-                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex  text-gray-700 hover:text-gray-900"
+                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex  text-gray-200 hover:text-gray-50"
                       >
                         Цены
                       </a>
@@ -95,7 +95,7 @@ const Header = () => {
                     <li>
                       <a
                         href="/"
-                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-700 hover:text-gray-900"
+                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-100 hover:text-gray-50"
                       >
                         О нас
                       </a>
@@ -103,7 +103,7 @@ const Header = () => {
                     <li>
                       <a
                         href="/"
-                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-700 hover:text-gray-900"
+                        className="flex py-2 text-base font-medium lg:ml-12 lg:inline-flex text-gray-100 hover:text-gray-50"
                       >
                         Контакты
                       </a>
