@@ -1,27 +1,28 @@
 import React from "react";
+import ExportedImage from "next-image-export-optimizer";
+import t1 from "/public/images/t1.png";
+import t2 from "/public/images/t2.png";
+import t3 from "/public/images/t3.png";
 
 const people = [
   {
     name: "Александр Маринов",
     role: "Гитара",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    imageUrl: t1,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Виолета Трущанова",
+    name: "Виолета Валеева",
     role: "Скрипка",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    imageUrl: t2,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Вячеслав Попов",
+    name: "Ринат Азимов",
     role: "Флейта",
-    imageUrl:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    imageUrl: t3,
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -48,11 +49,11 @@ const Teacher = () => {
                 key={person.name}
                 className="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
               >
-                <div className="space-y-6 xl:space-y-10">
-                  <img
+                <div className="relative space-y-6 xl:space-y-10">
+                  <ExportedImage
                     className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
                     src={person.imageUrl}
-                    alt=""
+                    alt="person"
                   />
                   <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
                     <div className="space-y-1 text-lg font-medium leading-6">

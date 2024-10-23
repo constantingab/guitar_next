@@ -3,13 +3,12 @@ import React from "react";
 const Cta = () => {
   return (
     <div className="flex mx-auto px-4 py-16 my-10 sm:px-6 lg:px-8 rounded-3xl justify-center">
-      <div className="max-w-5xl p-20 bg-gradient-to-tr from-gray-100 to-gray-300 rounded-3xl">
+      <div className="max-w-5xl px-16 py-36 bg-gradient-to-tr from-gray-700 to-gray-900 rounded-3xl">
+        <h1 className="text-center text-2xl pb-10 font-bold text-yellow-300 sm:text-3xl">
+          Получи бесплатный урок игры уже сегодня!
+        </h1>
         <div className="flex mx-auto max-w-7xl justify-center">
-          <div className="bg-gradient-to-tr from-gray-700 to-gray-900 p-4 rounded-3xl">
-            <h1 className="text-center text-2xl font-bold text-yellow-300 sm:text-3xl">
-              Получи бесплатный урок игры уже сегодня!
-            </h1>
-
+          <div className="bg-gradient-to-tr from-white to-gray-50 p-4 rounded-3xl">
             <p className="mx-auto mt-4 max-w-md text-center text-gray-500">
               Начни воплощать свои музыкальные мечты в жизнь с нашей школой
             </p>
@@ -22,7 +21,7 @@ const Cta = () => {
                 <div className="w-full mx-auto">
                   <select
                     id="tool"
-                    className="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="mb-3 bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   >
                     <option>Выберите инструмент</option>
                     <option>скрипка</option>
@@ -35,7 +34,7 @@ const Cta = () => {
                 <div className="relative">
                   <input
                     type="email"
-                    className="w-full rounded-lg border-gray-200 p-3 pe-12 text-sm shadow-sm hover:px-3"
+                    className="w-full bg-gray-300 rounded-lg border-gray-200 p-3 pe-12 text-sm shadow-sm hover:px-3"
                     placeholder="Введите email"
                   />
 
@@ -60,7 +59,7 @@ const Cta = () => {
 
               <button
                 type="submit"
-                className="block w-full rounded-lg bg-guitarBlue-500 hover:bg-guitarBlue-800 px-5 py-3 text-sm font-medium text-white"
+                className="block w-full rounded-lg bg-gray-700 hover:bg-gray-500 px-5 py-3 text-sm font-medium text-white"
               >
                 Отправить
               </button>
