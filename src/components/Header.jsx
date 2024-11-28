@@ -74,7 +74,11 @@ const Header = () => {
               </button>
 
               {isOpen && (
-                <nav className="absolute right-4 top-full z-10 w-full max-w-[250px] rounded-lg bg-gray-700 px-6 py-5 shadow lg:hidden lg:static lg:w-full lg:max-w-full lg:shadow-none">
+                <nav
+                  className="absolute right-4 top-full z-10 w-full max-w-[250px] rounded-lg bg-gray-700 px-6 py-5 shadow lg:hidden lg:static lg:w-full lg:max-w-full lg:shadow-none"
+                  itemscope
+                  itemtype="http://schema.org/SiteNavigationElement"
+                >
                   <ul className="block  lg:flex">
                     <li>
                       <a

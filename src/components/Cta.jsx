@@ -3,7 +3,7 @@ import React from "react";
 const Cta = () => {
   return (
     <div className="flex mx-auto px-4 py-16 my-10 sm:px-6 lg:px-8 rounded-3xl justify-center">
-      <div className="max-w-5xl px-16 py-36 bg-gradient-to-tr from-gray-700 to-gray-900 rounded-3xl">
+      <div id="cta" className="max-w-5xl px-16 py-36 bg-gradient-to-tr from-gray-700 to-gray-900 rounded-3xl">
         <h1 className="text-center text-2xl pb-10 font-bold text-yellow-300 sm:text-3xl">
           Получи бесплатный урок игры уже сегодня!
         </h1>
@@ -59,7 +59,7 @@ const Cta = () => {
 
               <button
                 type="submit"
-                className="block w-full rounded-lg bg-gray-700 hover:bg-gray-500 px-5 py-3 text-sm font-medium text-white"
+                className="block w-full transition rounded-lg bg-gray-700 hover:bg-gray-500 px-5 py-3 text-sm font-medium text-white"
               >
                 Отправить
               </button>

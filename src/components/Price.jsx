@@ -28,10 +28,10 @@ const Price = () => {
               </p>
 
               <a
-                className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="#"
+                className="mt-4 block rounded border transition border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                href="#cta"
               >
-                Вперед
+                Записаться
               </a>
             </div>
 
@@ -167,10 +167,10 @@ const Price = () => {
               </p>
 
               <a
-                className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="#"
+                className="mt-4 block rounded border transition border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                href="#cta"
               >
-                Get Started
+                Записаться
               </a>
             </div>
 
@@ -306,10 +306,10 @@ const Price = () => {
               </p>
 
               <a
-                className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="#"
+                className="mt-4 block rounded border transition border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                href="#cta"
               >
-                Get Started
+                Записаться
               </a>
             </div>
 

@@ -14,12 +14,13 @@ const Hero = () => {
                 alt="hero image"
                 fill
                 className="absolute inset-0 h-full w-full object-cover"
+                sizes="(max-width: 3840px) 100vw"
               />
             </div>
           </div>
 
-          <div className="-z-10 relative flex items-center bg-gray-100">
-            <span className=" hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+          <div className="relative flex items-center bg-gray-100">
+            <span className="-z-10 hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
               <h2 className="text-2xl font-bold sm:text-3xl">ШКОЛА ОБУЧЕНИЯ</h2>
@@ -40,8 +41,8 @@ const Hero = () => {
               </p>
 
               <a
-                href="#"
-                className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                className="z-10 mt-4 block rounded border transition border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                href="#cta"
               >
                 Записаться
               </a>
